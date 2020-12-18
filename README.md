@@ -13,7 +13,7 @@ GCPの使い方については[この本](https://misoton.booth.pm/items/1850809
 
 ## 2. 構造
 ラズベリーパイとdht11 を接続して、温度データを取得する。  
-MQTTを使用して、GCPの機能を利用して、BigQuery にデータを保存する。  
+GCPの機能を利用して、BigQuery にデータを保存する。  
 google の提供するdatastudioでデータを監視する。  
 データをダウンロードして解析する。  
 ![構成](/img/architecture.png)
